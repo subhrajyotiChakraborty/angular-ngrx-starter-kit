@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-ngrx-starterKit"
+    }
+  },
+  "defaultProject": "angular-ngrx-starterKit",
+  "cli": {
+    "analytics": false
+  }
 }

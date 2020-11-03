@@ -1,0 +1,10 @@
+<div *ngIf="(post$ | async)">
+  <h3>{{(post$ | async)?.title}}</h3>
+  <p>{{(post$ | async)?.body}}</p>
+  <p>
+    UserId: <a>{{(post$ | async)?.userId}}</a>
+  </p>
+</div>
+<div *ngIf="!(post$ | async)">
+  <p>Loading...</p>
+</div>
